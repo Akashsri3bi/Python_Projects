@@ -78,7 +78,9 @@ def GameLoop():
 
 	screen.onkeypress(R1 , "Up")
 	screen.onkeypress(R2 , "Down")
-
+	
+	
+	#This part/method of code is having issues
 	def move():
 		if head.direction == "up":
 			y = head.ycor()
