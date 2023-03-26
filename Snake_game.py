@@ -37,6 +37,7 @@ screen.tracer(0)
 
 names = []
 scores = []
+new_scores = []
 bodies = []
 def GameLoop():
 	screen = turtle.Screen()
