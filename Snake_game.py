@@ -82,16 +82,16 @@ def GameLoop():
 	
 	#This part/method of code is having issues
 	def move():
-		if head.direction == "up":
+		if head._mode == "up":
 			y = head.ycor()
 			head.sety(y - 20)
-		if head.direction == "down":
+		if head._mode == "down":
 			y = head.ycor()
 			head.sety(y + 20)
-		if head.direction == "left":
+		if head._mode == "left":
 			x = head.xcor()
 			head.setx(x-20)
-		if head.direction == "right":
+		if head._mode == "right":
 			x = head.xcor()
 			head.setx(x+20)
 	screen.listen()
