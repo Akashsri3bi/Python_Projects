@@ -10,7 +10,7 @@ num=random.choice([0,1])
 
 #first screen to print "game begins now"
 screen0=turtle.Screen()
-screen0.title("Snake Game")
+screen0.title("Slither.io") #the title has been changed
 screen0.bgcolor("#000000")
 screen0.bgpic("snake.png")
 pen=turtle.Turtle()
