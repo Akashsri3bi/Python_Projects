@@ -93,7 +93,7 @@ def GameLoop():
 			head.setx(x-20)
 		if head._mode == "right":
 			x = head.xcor()
-			head.setx(x+20)
+			head.setx(x+50) #Head will now move with a speed of 30 incremented
 	screen.listen()
 	i = 0.02
 
